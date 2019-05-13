@@ -3,10 +3,10 @@ Pada Bagian `application/config/config.php`:
 ```php
 // application/config/config.php
 
-$config[‘composer_autoload’] = FALSE;
+$config['composer_autoload'] = FALSE;
 
 // ubah menjadi
-$config[‘composer_autoload’] = ‘vendor/autoload.php’;
+$config['composer_autoload'] = 'vendor/autoload.php';
 ```
 
 Kemudian ketikkan di Terminal:
@@ -20,7 +20,7 @@ Tambahkan `view` di `application/config/autoload.php`:
 ```php
 // application/config/autoload.php
 
-$autoload[‘helper’] = array(‘view’);
+$autoload['helper'] = array('view');
 ```
 
 Contoh cara penggunaan:
